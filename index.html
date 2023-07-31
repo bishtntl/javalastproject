@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./tabstyle.css">
+</head>
+<body>
+   
+    <div class="globalhero">
+        <button  id="back"  class="hideback">Back</button>
+        <div id="blank"></div> 
+<button onclick="addpopup()" class="plus"><span id="add">+</span></button>
+
+        <!-- <button class="button4" id="btnhero" onclick="showagain()">
+        <span id="plusone">+</span> -->
+        <!-- </button> --> 
+
+
+    </div>   
+
+    <div class="global">
+<button onclick="addpopup()" class="plus"><span id="add">+</span></button>
+    <div class="additem">Add Item</div>
+    <header>
+  <h1 id="head">Tasks</h1> 
+  <span id="list">List</span>
+</span>
+    </header>
+   
+    <div class="noitem">
+        No Items in the todo List  
+    </div>
+    </div>
+    <div id="popupbox" class="hide">
+        
+        <h2>Add new Task</h2>
+        <input type="text" id="userinput">
+        <button onclick="addcard()" class="btn1">Add</button>
+        <button onclick="hideme()" class="btn1">close</button>
+
+    </div>
+
+    <div id="container" > </div>
+    <div id="copycontainer"></div>
+
+
+
+
+    <!-- <div id="popupboxnew" class="hide">
+        
+        <h2 class="title">Add new Task</h2>
+        <input type="text" id="newinputvalue">
+        <button onclick="popup2()" class="" >Add</button>
+        <button onclick="hideme2()" class="">close</button>
+
+    </div> 
+     -->
+     
+    
+    <script src="./script.js"></script>
+</body>
+</html>
